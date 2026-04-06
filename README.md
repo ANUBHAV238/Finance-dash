@@ -225,12 +225,12 @@ Register a new user. Without admin auth, role defaults to `viewer`.
 
 ---
 
-#### `GET /api/auth/me` 🔒
+#### `GET /api/auth/me` 
 Returns the currently authenticated user's profile.
 
 ---
 
-### Users 🔒
+### Users 
 
 #### `GET /api/users` *(admin only)*
 List all users.
@@ -261,7 +261,7 @@ Permanently deletes user. Cannot delete self.
 
 ---
 
-### Transactions 🔒
+### Transactions 
 
 #### `GET /api/transactions`
 List transactions. All roles can read.
@@ -325,7 +325,7 @@ Soft deletes the record (`isDeleted: true`). Record is hidden from all list quer
 
 ---
 
-### Dashboard 🔒 *(analyst, admin only)*
+### Dashboard  *(analyst, admin only)*
 
 #### `GET /api/dashboard/summary`
 **Query:** `startDate?`, `endDate?`
